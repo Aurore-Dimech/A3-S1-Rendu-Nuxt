@@ -12,14 +12,14 @@ export default function(initialQuiz) {
     const submitAnswer = (answer) => {
         const time_answer = Date.now()
         if(answer === question.value.answers.true_answer){
-            const time_to_respond = time_answer-time_question.value
+            const time_to_respond = (time_answer-time_question.value)/1000
 
-            if (time_to_respond < 1000){
+            if (time_to_respond < 1){
                 score.value += 5
-            } else if (time_to_respond > 5000){
+            } else if (time_to_respond > 5){
                 score.value++
             } else {
-                score.value += Math.round(5-time_to_respond/1000)
+                score.value += 5-Number.parseFloat(time_to_respond).toFixed(3)
             }
         }
 
