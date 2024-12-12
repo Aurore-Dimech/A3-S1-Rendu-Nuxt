@@ -1,0 +1,52 @@
+{
+    "slug": "rat-taupe-nu",
+    "title": "Rat Taupe Nu",
+
+    "questions": [
+        {
+            "question": "Quel autre organisme a un fonctionnement sociable similaire à celui du rat taupe nu ?",
+            "answers": {
+                "true_answer": "Fourmis",
+                "other_answer_1": "Rats",
+                "other_answer_2": "Chiens",
+                "other_answer_3": "Humains"
+            }
+        },
+        {
+            "question": "Quel est le plus grand ennemi du rat taupe nu ?",
+            "answers": {
+                "true_answer": "Le froid",
+                "other_answer_1": "L'humain",
+                "other_answer_2": "La société capitaliste",
+                "other_answer_3": "Les serpents"
+            }
+        },
+        {
+            "question": "Quel est l'une des principales particularités du rat taupe nu ?",
+            "answers": {
+                "true_answer": "Leur grande longévité",
+                "other_answer_1": "Leur grande beauté",
+                "other_answer_2": "Leur incroyable charisme",
+                "other_answer_3": "Leur mode de vie naturiste"
+            }
+        },
+        {
+            "question": "A quelle maladie est-il particulièrement résistant ?",
+            "answers": {
+                "true_answer": "Le cancer",
+                "other_answer_1": "Le sida",
+                "other_answer_2": "La sclérose en plaque",
+                "other_answer_3": "L'angine"
+            }
+        },
+        {
+            "question": "Quelle sensation est-il incapable de ressentir ?",
+            "answers": {
+                "true_answer": "La douleur",
+                "other_answer_1": "Le froid",
+                "other_answer_2": "Le chaud",
+                "other_answer_3": "La faim"
+            }
+        }
+    ]
+}

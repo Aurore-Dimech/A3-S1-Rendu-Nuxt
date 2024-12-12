@@ -1,0 +1,52 @@
+{
+    "slug": "karl-marx",
+    "title": "Karl Marx",
+
+    "questions": [
+        {
+            "question": "Dans quel pays est né Karl Marx ?",
+            "answers": {
+                "true_answer": "Allemagne",
+                "other_answer_1": "France",
+                "other_answer_2": "Russie",
+                "other_answer_3": "Biélorussie"
+            }
+        },
+        {
+            "question": "En quelle année est né Karl Marx ?",
+            "answers": {
+                "true_answer": "1818",
+                "other_answer_1": "1852",
+                "other_answer_2": "1920",
+                "other_answer_3": "1736"
+            }
+        },
+        {
+            "question": "Quel est le nom de son ouvrage le plus célèbre ?",
+            "answers": {
+                "true_answer": "The Communist Manifesto",
+                "other_answer_1": "The Skammunist Manifesto",
+                "other_answer_2": " The Communisto Manifesto",
+                "other_answer_3": " The Capitalist Manifesto"
+            }
+        },
+        {
+            "question": "En quelle année est mort Karl Marx ?",
+            "answers": {
+                "true_answer": "1883",
+                "other_answer_1": "1886",
+                "other_answer_2": "1889",
+                "other_answer_3": "Jamais il vit encore en moi"
+            }
+        },
+        {
+            "question": "Comment s'appelait sa femme ?",
+            "answers": {
+                "true_answer": "Jenny von Westphalen",
+                "other_answer_1": "Henriette Pressburg",
+                "other_answer_2": "Louise Juta",
+                "other_answer_3": "Johanna van der Willigen"
+            }
+        }
+    ]
+}
