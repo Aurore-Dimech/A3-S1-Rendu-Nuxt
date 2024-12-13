@@ -38,16 +38,6 @@ export default function(initialQuiz) {
         question.value = quiz.questions[count.value];
     }
 
-    const randomizeAnswersPlaces = (answers) => {
-        const randomAwsers = {}
-        console.log(random.choice(list(answers.items())))
-
-        // for (const [key, value] of Object.entries(answers)) {
-        //     console.log(key, value)
-        //     console.log(Math.floor(Math.random()*4+1))
-        // }
-    }
-
     return {
         submitAnswer,
         quiz,
