@@ -19,7 +19,7 @@
                 <p  class="text-center z-10"v-if="quiz.score.value <= (quiz.quiz.questions.length*5)-((quiz.quiz.questions.length*5)*0.5)">C'est bien d'avoir essayé ahah.</p>
             </div>
             <div class="flex gap-4 justify-center z-10">
-                <AnswerButton class="border bg-white border-black justify-self-end !mx-0" @click="quiz.resetQuiz">Recommencer</AnswerButton>
+                <AnswerButton class="border bg-white border-black justify-self-end !mx-0 !w-fit" @click="quiz.resetQuiz">Recommencer</AnswerButton>
                 <LinkButton link="/" class="!mx-0">Retourner à la liste des quizs</LinkButton>
             </div>
         </div>
