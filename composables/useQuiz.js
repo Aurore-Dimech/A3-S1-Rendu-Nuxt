@@ -7,6 +7,7 @@ export default function(initialQuiz) {
 
     const score = ref(0)
 
+    // quiz.questions[count.value].answers = randomizeObject(quiz.questions[count.value].answers)
     const question = ref(quiz.questions[count.value])
 
     const submitAnswer = (answer) => {
@@ -19,13 +20,14 @@ export default function(initialQuiz) {
             } else if (time_to_respond > 5){
                 score.value++
             } else {
-                score.value += 5-Number.parseFloat(time_to_respond).toFixed(3)
+                score.value += 5-time_to_respond
             }
         }
 
         count.value++
 
         if (count.value < quiz.questions.length){
+            quiz.questions[count.value].answers = randomizeObject(quiz.questions[count.value].answers)
             question.value = quiz.questions[count.value];
             time_question.value = Date.now();
         }
