@@ -25,8 +25,10 @@ export default function(initialQuiz) {
 
         count.value++
 
-        question.value = quiz.questions[count.value];
-        time_question.value = Date.now();
+        if (count.value < quiz.questions.length){
+            question.value = quiz.questions[count.value];
+            time_question.value = Date.now();
+        }
     }
 
     const resetQuiz = () => {
@@ -34,6 +36,16 @@ export default function(initialQuiz) {
         score.value = 0;
 
         question.value = quiz.questions[count.value];
+    }
+
+    const randomizeAnswersPlaces = (answers) => {
+        const randomAwsers = {}
+        console.log(random.choice(list(answers.items())))
+
+        // for (const [key, value] of Object.entries(answers)) {
+        //     console.log(key, value)
+        //     console.log(Math.floor(Math.random()*4+1))
+        // }
     }
 
     return {
